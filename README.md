@@ -90,7 +90,7 @@ $ yarn install
 # Run
 $ yarn start
 
-# running on port 3000
+# running on port 3333
 ```
 
 ### Install Mobile
