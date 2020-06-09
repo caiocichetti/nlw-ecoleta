@@ -38,7 +38,7 @@ This project was developed with the following technologies:
 
 - Node.js
 - TypeScript
-- ReactJS]
+- ReactJS
 - React Native
 
 ## 🔖 Layout
