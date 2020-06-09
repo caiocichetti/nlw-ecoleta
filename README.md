@@ -4,10 +4,10 @@
   
 <p align="center">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiocichetti/nlw-ecoleta">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiocichetti/ecoleta-nlw">
 
-  <a href="https://github.com/DanielObara/NLW-1.0/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caiocichetti/nlw-ecoleta">
+  <a href="https://github.com/caiocichetti/ecoleta-nlw/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caiocichetti/ecoleta-nlw">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -47,7 +47,7 @@ To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28
 
 ## :information_source: How To Install
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][The Only Real Dev Language] + [Yarn][yarn] installed on your computer.
 
 From your command line:
 
