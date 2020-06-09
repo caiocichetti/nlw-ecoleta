@@ -45,22 +45,72 @@ This project was developed with the following technologies:
 
 To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
 
-## Install 
+## :information_source: How To Install
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][nodejs] + [Yarn][yarn] installed on your computer.
+
+From your command line:
+
+### Install API 
+
 ```bash
 # Clone this repository
-$ git clone 
+$ git clone https://github.com/caiocichetti/ecoleta-nlw
 
 # Go into the repository
-$ cd ecoleta/server
+$ cd ecoleta-nlw/server
 
 # Install dependencies
-$ npm install
+$ yarn install
+
+# Run Migrates
+$ yarn knex:migrate
+
+# Run Seeds
+$ yarn knex:seed
+
+# Start server
+$ yarn run dev
+
+# running on port 3333
+```
+
+### Install Front-end
+
+```bash
+# Clone this repository
+$ git clone https://github.com/DanielObara/NLW-1.0
 
 # Go into the repository
-$ cd ecoleta/web
+$ cd ecoleta-nlw/web
 
 # Install dependencies
-$ npm install
+$ yarn install
+
+# Run
+$ yarn start
+
+# running on port 3000
+```
+
+### Install Mobile
+
+```bash
+
+# Go into the repository
+$ cd ecoleta-nlw/mobile
+
+# Install dependencies
+$ yarn install
+
+# Run
+$ yarn start
+
+# Expo will open, just scan the qrcode on terminal or expo page
+
+# If some problem with fonts, execute:
+$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
+
 ```
 ## :memo: License
 
