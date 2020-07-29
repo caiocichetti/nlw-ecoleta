@@ -1,117 +1,41 @@
-<h4 align="center"> 
-	NextLevelWeek 1.0 🚀 
-</h4>
-  
-<p align="center">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/caiocichetti/ecoleta-nlw">
-
-  <a href="https://github.com/caiocichetti/ecoleta-nlw/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/caiocichetti/ecoleta-nlw">
-  </a>
-
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-</p>
+<h1 align="center">
+    <img alt="Ecoleta" title="Ecoleta" src=".github/ecoleta.svg" width="220px" />
+</h1>
 
 <p align="center">
-  <a href="#-nlw">Next Level Week</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#memo-licença">Licença</a>
 </p>
 
-## :information_source: What's Next Level Week?
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=7159c1&labelColor=000000">
+</p>
 
-NLW is a practical week with lots of code, challenges, networking and a single objective: to take you to the next level.
-Through our method you will learn new tools, learn about new technologies and discover hacks that will boost your career.
-An online and completely free event that will help you take the next step in your evolution as a dev.
+<br>
 
-## 💻 Project
+<p align="center">
+  <img alt="Ecoleta" src=".github/ecoleta.png" width="100%">
+</p>
 
-Ecoleta is a project developed based on international environment week. 
-That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
+## 🚀 Tecnologias
 
-## :rocket: Technologies
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-This project was developed with the following technologies:
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
 
-- Node.js
-- TypeScript
-- ReactJS
-- React Native
+## 💻 Projeto
+
+O Ecoleta é um marketplace que ajuda pessoas a encontrarem pontos de coleta de resíduos de forma eficiente.
 
 ## 🔖 Layout
 
-To access the layout use [Figma](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/).
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/9TlOcj6l7D05fZhU12xWT3/Ecoleta-Booster?node-id=0%3A1). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
-## :information_source: How To Install
+## :memo: Licença
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js][The Only Real Dev Language] + [Yarn][yarn] installed on your computer.
-
-From your command line:
-
-### Install API 
-
-```bash
-# Clone this repository
-$ git clone https://github.com/caiocichetti/ecoleta-nlw
-
-# Go into the repository
-$ cd ecoleta-nlw/server
-
-# Install dependencies
-$ yarn install
-
-# Run Migrates
-$ yarn knex:migrate
-
-# Run Seeds
-$ yarn knex:seed
-
-# Start server
-$ yarn run dev
-
-# running on port 3333
-```
-
-### Install Front-end
-
-```bash
-# Clone this repository
-$ git clone https://github.com/DanielObara/NLW-1.0
-
-# Go into the repository
-$ cd ecoleta-nlw/web
-
-# Install dependencies
-$ yarn install
-
-# Run
-$ yarn start
-
-# running on port 3333
-```
-
-### Install Mobile
-
-```bash
-
-# Go into the repository
-$ cd ecoleta-nlw/mobile
-
-# Install dependencies
-$ yarn install
-
-# Run
-$ yarn start
-
-# Expo will open, just scan the qrcode on terminal or expo page
-
-# If some problem with fonts, execute:
-$ expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
-
-```
-## :memo: License
-
-This project is under the MIT license. See the [LICENSE](LICENSE.md) for details.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
